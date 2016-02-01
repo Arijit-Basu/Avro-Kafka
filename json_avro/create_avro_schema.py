@@ -22,7 +22,7 @@ class CreateAvroSchema(object):
 
             "fields": [{
                 "name": "data_version",
-                "type": "string"
+                "type": "int"
             },
                 {
                     "name": "ip_address",
