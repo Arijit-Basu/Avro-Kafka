@@ -1,0 +1,16 @@
+{
+  "category": "battery",
+  "version": 1.0,
+  "values": [
+    {
+      "plugTime": 1242,
+      "unplugTime": 244
+    },
+    {
+      "date": "1989/12/22",
+      "below15P": 4,
+      "below30P": 4,
+      "below50P": 4
+    }
+  ]
+}

@@ -1,5 +1,6 @@
-import os
 import json
+import os
+
 from json_avro.create_avro_schema import CreateAvroSchema
 
 
@@ -40,5 +41,6 @@ def main_function(file_name):
 
 
 if __name__ == '__main__':
+    print "You are in the main Function"
     file_name = os.getcwd() + "/json_value.json"
     main_function(file_name)
